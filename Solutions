@@ -11,3 +11,11 @@ Link :- https://www.youtube.com/watch?v=B0DWR9Awtc8
 aws dynamodb delete-item     --table-name Testing   --endpoint-url http://localhost:8010  --key '{                                    
         "email" : {"S": "ee19a98c567fb1133730d17a852bb0a80a39d627a0e5ab23a69a01a39740b37a"}
     }'
+
+
+
+
+-------------     Enable ssh in ubuntu      -----------------
+
+
+Link :- https://linuxize.com/post/how-to-enable-ssh-on-ubuntu-20-04/
