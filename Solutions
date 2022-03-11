@@ -1,3 +1,13 @@
+
 -------------     Not able to see images in IOS      -----------------
 
 Link :- https://www.youtube.com/watch?v=B0DWR9Awtc8
+
+
+
+
+-------------     Delete user from dynamo db with his primary key      -----------------
+
+aws dynamodb delete-item     --table-name Testing   --endpoint-url http://localhost:8010  --key '{                                    
+        "email" : {"S": "ee19a98c567fb1133730d17a852bb0a80a39d627a0e5ab23a69a01a39740b37a"}
+    }'
